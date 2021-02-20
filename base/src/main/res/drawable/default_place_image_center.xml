@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@color/color_e7e7e7"/>
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/default_place_image_holder"/>
+    </item>
+</layer-list>

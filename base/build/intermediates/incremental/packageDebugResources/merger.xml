@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\victor\yzIM\MwClientAndroid\base\src\main\res"/><source path="D:\victor\yzIM\MwClientAndroid\base\build\generated\res\rs\debug"/><source path="D:\victor\yzIM\MwClientAndroid\base\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\victor\yzIM\MwClientAndroid\base\src\main\res"><file name="push_login_start_in" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\anim\push_login_start_in.xml" qualifiers="" type="anim"/><file name="app_splash" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\drawable\app_splash.xml" qualifiers="" type="drawable"/><file name="border_d00_bg_d00_5" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\drawable\border_d00_bg_d00_5.xml" qualifiers="" type="drawable"/><file name="border_f4f4_bg_f4f4" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\drawable\border_f4f4_bg_f4f4.xml" qualifiers="" type="drawable"/><file name="bottom_f4_bg_white" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\drawable\bottom_f4_bg_white.xml" qualifiers="" type="drawable"/><file name="card_foreground_selector" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\drawable\card_foreground_selector.xml" qualifiers="" type="drawable"/><file name="default_place_image_center" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\drawable\default_place_image_center.xml" qualifiers="" type="drawable"/><file name="selector_card_foreground" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\drawable\selector_card_foreground.xml" qualifiers="" type="drawable"/><file name="selector_click_bg_color" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\drawable\selector_click_bg_color.xml" qualifiers="" type="drawable"/><file name="selector_click_bg_white" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\drawable\selector_click_bg_white.xml" qualifiers="" type="drawable"/><file name="toolbar_shadow" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\drawable\toolbar_shadow.xml" qualifiers="" type="drawable"/><file name="card_foreground_selector" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\drawable-v21\card_foreground_selector.xml" qualifiers="v21" type="drawable"/><file name="selector_card_foreground" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\drawable-v21\selector_card_foreground.xml" qualifiers="v21" type="drawable"/><file name="selector_click_bg_click" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\drawable-v21\selector_click_bg_click.xml" qualifiers="v21" type="drawable"/><file name="selector_click_bg_color" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\drawable-v21\selector_click_bg_color.xml" qualifiers="v21" type="drawable"/><file name="selector_click_bg_white" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\drawable-v21\selector_click_bg_white.xml" qualifiers="v21" type="drawable"/><file name="activity_crop" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\layout\activity_crop.xml" qualifiers="" type="layout"/><file name="activity_permissions" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\layout\activity_permissions.xml" qualifiers="" type="layout"/><file name="adapter_aspect_ratio" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\layout\adapter_aspect_ratio.xml" qualifiers="" type="layout"/><file name="progress" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\layout\progress.xml" qualifiers="" type="layout"/><file name="title_back_view" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\layout\title_back_view.xml" qualifiers="" type="layout"/><file name="toolbar" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\layout\toolbar.xml" qualifiers="" type="layout"/><file name="icon_back" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\mipmap-xhdpi\icon_back.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="qidong_logo" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\mipmap-xhdpi\qidong_logo.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="default_place_image_holder" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\mipmap-xxhdpi\default_place_image_holder.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="icon_back" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\mipmap-xxhdpi\icon_back.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="qidong_logo" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\mipmap-xxhdpi\qidong_logo.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="icon_back" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\mipmap-xxxhdpi\icon_back.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="qidong_logo" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\mipmap-xxxhdpi\qidong_logo.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="MaterialMenuView">
+        <attr format="color" name="mm_color"/>
+        <attr format="boolean" name="mm_visible"/>
+        <attr format="integer" name="mm_scale"/>
+        <attr format="integer" name="mm_transformDuration"/>
+        <attr format="integer" name="mm_strokeWidth"/>
+        <attr format="boolean" name="mm_rtlEnabled"/>
+    </declare-styleable><declare-styleable name="LoadingView">
+        <attr format="color" name="triangleColor"/>
+        <attr format="color" name="circleColor"/>
+        <attr format="integer" name="duration"/>
+        <attr format="dimension" name="circleWidth"/>
+    </declare-styleable><declare-styleable name="CropIwaView">
+
+        <attr format="boolean" name="ci_scale_enabled"/>
+        <attr format="boolean" name="ci_translation_enabled"/>
+        <attr format="float" name="ci_max_scale"/>
+        <attr format="float" name="ci_crop_scale"/>
+        <attr format="enum" name="ci_initial_position">
+            <enum name="centerInside" value="0"/>
+            <enum name="centerCrop" value="1"/>
+        </attr>
+
+        <attr format="color" name="ci_border_color"/>
+        <attr format="dimension" name="ci_border_width"/>
+
+        <attr format="color" name="ci_corner_color"/>
+        <attr format="dimension" name="ci_corner_width"/>
+
+        <attr format="dimension" name="ci_grid_width"/>
+        <attr format="color" name="ci_grid_color"/>
+        <attr format="boolean" name="ci_draw_grid"/>
+
+        <attr format="dimension" name="ci_min_crop_width"/>
+        <attr format="dimension" name="ci_min_crop_height"/>
+
+        <attr format="color" name="ci_overlay_color"/>
+
+        <attr format="boolean" name="ci_dynamic_aspect_ratio"/>
+        <attr format="integer" name="ci_aspect_ratio_w"/>
+        <attr format="integer" name="ci_aspect_ratio_h"/>
+
+        <attr format="enum" name="ci_crop_shape">
+            <enum name="rectangle" value="0"/>
+            <enum name="oval" value="1"/>
+        </attr>
+
+    </declare-styleable></file><file path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\values\colors.xml" qualifiers=""><color name="defaultColorPrimary">@color/white</color><color name="defaultColorPrimaryDark">@color/white</color><color name="defaultColorAccent">@color/color_3a89f0</color><color name="colorTitle">#000</color><color name="cropiwa_default_overlay_color">#af000000</color><color name="cropiwa_default_border_color">#f5f5f5</color><color name="cropiwa_default_corner_color">#f5f5f5</color><color name="cropiwa_default_grid_color">#fff</color><color name="aspectRatioNotSelected">#757575</color><color name="aspectRatioText">#757575</color><color name="disabledOverlay">#3cffffff</color></file><file path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\values\dimens.xml" qualifiers=""><dimen name="cropiwa_default_border_stroke_width">1dp</dimen><dimen name="cropiwa_default_corner_stroke_width">4dp</dimen><dimen name="cropiwa_default_grid_stroke_width">1dp</dimen><dimen name="cropiwa_default_min_height">40dp</dimen><dimen name="cropiwa_default_min_width">40dp</dimen><dimen name="actionbar_size">48dp</dimen><dimen name="title_right_view_mr">15dp</dimen></file><file path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\values\ids.xml" qualifiers=""><item name="frame_layout_id" type="id"/><item name="crop_image_menu_crop" type="drawable"/></file><file path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">base</string><string name="label_know">知道了</string><string name="label_ok">确认</string><string name="label_cancel">取消</string><string name="label_quit">退出</string><string name="label_setting">设置</string><string name="label_help">帮助</string><string name="tips_service_error">网络请求超时,请重试。</string><string name="tips_network">请打开您的网络。</string><string name="tips_permissions">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string><string name="permission_camera">缺少相机相关的必要权限，\n\n请点击设置-权限-打开所需权限。</string><string name="permission_photo">缺少文件读取相关的必要权限，\n\n请点击设置-权限-打开所需权限。</string><string name="crop_image_activity_title"/><string name="crop_image_menu_rotate_left">反时针旋转</string><string name="crop_image_menu_rotate_right">旋转</string><string name="crop_image_menu_crop">裁剪</string><string name="pick_image_intent_chooser_title">选择图片</string><string name="saving_image">保存中…</string><string name="saving_image_error">保存失败…</string><string name="default_loading">加载中~~~</string></file><file path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/AppActionBar</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style><style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/defaultColorPrimary</item>
+        
+        <item name="colorPrimaryDark">@color/defaultColorPrimaryDark</item>
+        
+        <item name="colorAccent">@color/defaultColorAccent</item>
+        <item name="colorControlActivated">@color/defaultColorAccent</item>
+        <item name="colorControlNormal">@color/color_333333</item>
+        
+        <item name="actionBarSize">@dimen/actionbar_size</item>
+        <item name="actionBarItemBackground">@null</item>
+    </style><style name="AppDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/defaultColorAccent</item>
+        <item name="colorControlActivated">@color/defaultColorAccent</item>
+        <item name="colorControlNormal">@color/color_cccccc</item>
+    </style><style name="AppThemeNoBar" parent="@style/BaseAppTheme">
+
+    </style><style name="AppActionBar" parent="Base.Widget.AppCompat.ActionBar">
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+        <item name="background">@color/defaultColorPrimary</item>
+        <item name="elevation">10dp</item>
+    </style><style name="Theme.AppCompat.Slider" parent="@style/AppThemeNoBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style><style name="Theme.AppCompat.Welcome" parent="@style/AppThemeNoBar">
+        <item name="android:windowBackground">@drawable/app_splash</item>
+        <item name="android:windowDisablePreview">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style><style name="ToolBarTheme" parent="AppActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/actionbar_size</item>
+        <item name="contentInsetEnd">0dp</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetRight">0dp</item>
+        <item name="contentInsetLeft">0dp</item>
+    </style></file><file name="provider_paths" path="D:\victor\yzIM\MwClientAndroid\base\src\main\res\xml\provider_paths.xml" qualifiers="" type="xml"/></source><source path="D:\victor\yzIM\MwClientAndroid\base\build\generated\res\rs\debug"/><source path="D:\victor\yzIM\MwClientAndroid\base\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\victor\yzIM\MwClientAndroid\base\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\victor\yzIM\MwClientAndroid\base\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="MaterialMenuView">
+        <attr format="color" name="mm_color"/>
+        <attr format="boolean" name="mm_visible"/>
+        <attr format="integer" name="mm_scale"/>
+        <attr format="integer" name="mm_transformDuration"/>
+        <attr format="integer" name="mm_strokeWidth"/>
+        <attr format="boolean" name="mm_rtlEnabled"/>
+    </declare-styleable><declare-styleable name="LoadingView">
+        <attr format="color" name="triangleColor"/>
+        <attr format="color" name="circleColor"/>
+        <attr format="integer" name="duration"/>
+        <attr format="dimension" name="circleWidth"/>
+    </declare-styleable><declare-styleable name="CropIwaView">
+
+        <attr format="boolean" name="ci_scale_enabled"/>
+        <attr format="boolean" name="ci_translation_enabled"/>
+        <attr format="float" name="ci_max_scale"/>
+        <attr format="float" name="ci_crop_scale"/>
+        <attr format="enum" name="ci_initial_position">
+            <enum name="centerInside" value="0"/>
+            <enum name="centerCrop" value="1"/>
+        </attr>
+
+        <attr format="color" name="ci_border_color"/>
+        <attr format="dimension" name="ci_border_width"/>
+
+        <attr format="color" name="ci_corner_color"/>
+        <attr format="dimension" name="ci_corner_width"/>
+
+        <attr format="dimension" name="ci_grid_width"/>
+        <attr format="color" name="ci_grid_color"/>
+        <attr format="boolean" name="ci_draw_grid"/>
+
+        <attr format="dimension" name="ci_min_crop_width"/>
+        <attr format="dimension" name="ci_min_crop_height"/>
+
+        <attr format="color" name="ci_overlay_color"/>
+
+        <attr format="boolean" name="ci_dynamic_aspect_ratio"/>
+        <attr format="integer" name="ci_aspect_ratio_w"/>
+        <attr format="integer" name="ci_aspect_ratio_h"/>
+
+        <attr format="enum" name="ci_crop_shape">
+            <enum name="rectangle" value="0"/>
+            <enum name="oval" value="1"/>
+        </attr>
+
+    </declare-styleable></configuration></mergedItems></merger>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/user_layout"
+        android:paddingLeft="@dimen/dp_20"
+        android:paddingRight="@dimen/dp_20"
+        android:paddingBottom="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_10"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/im_user_icon"/>
+        <ImageView
+            android:id="@+id/user_icon"
+            android:layout_toStartOf="@+id/icon_arrow_right"
+            android:layout_marginEnd="@dimen/dp_10"
+            android:layout_width="56dp"
+            android:layout_height="56dp"/>
+        <ImageView
+            android:id="@+id/icon_arrow_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/arrow_right"/>
+    </RelativeLayout>
+    <com.mwim.qcloud.tim.uikit.component.LineControllerView
+        android:id="@+id/modify_nick_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:canNav="true"
+        app:name="@string/im_nick_name" />
+    <com.mwim.qcloud.tim.uikit.component.LineControllerView
+        android:id="@+id/modify_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:canNav="true"
+        app:name="@string/im_sex" />
+    <com.mwim.qcloud.tim.uikit.component.LineControllerView
+        android:id="@+id/modify_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:name="@string/im_city"
+        app:canNav="true"/>
+    <com.mwim.qcloud.tim.uikit.component.LineControllerView
+        android:id="@+id/modify_signature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:name="@string/im_signature"
+        app:canNav="true"/>
+
+    <com.mwim.qcloud.tim.uikit.component.LineControllerView
+        android:id="@+id/modify_phone"
+        app:isTop="true"
+        app:canNav="true"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:name="@string/im_phone" />
+    <com.mwim.qcloud.tim.uikit.component.LineControllerView
+        android:id="@+id/modify_department"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:name="@string/im_department" />
+    <com.mwim.qcloud.tim.uikit.component.LineControllerView
+        android:id="@+id/modify_position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:name="@string/im_position" />
+    <com.mwim.qcloud.tim.uikit.component.LineControllerView
+        android:id="@+id/modify_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:name="@string/im_card" />
+    <com.mwim.qcloud.tim.uikit.component.LineControllerView
+        android:id="@+id/modify_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:canNav="true"
+        app:name="@string/im_email" />
+</LinearLayout>

@@ -1,0 +1,51 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.workstation.android"
+4    android:versionCode="22"
+5    android:versionName="1.2.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:4:5-79
+11-->D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:4:22-76
+12
+13    <application
+13-->D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:5:5-19:19
+14        android:allowBackup="true"
+14-->D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:5:18-44
+15        android:label="@string/app_name"
+15-->D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:6:9-41
+16        android:supportsRtl="true" >
+16-->D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:7:9-35
+17        <provider
+17-->D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:8:9-16:20
+18            android:name="androidx.core.content.FileProvider"
+18-->D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:9:13-62
+19            android:authorities="${applicationId}.fileProvider"
+19-->D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:10:13-64
+20            android:exported="false"
+20-->D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:11:13-37
+21            android:grantUriPermissions="true" >
+21-->D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:12:13-47
+22            <meta-data
+22-->D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:13:13-15:57
+23                android:name="android.support.FILE_PROVIDER_PATHS"
+23-->D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:14:17-67
+24                android:resource="@xml/provider_paths" />
+24-->D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:15:17-55
+25        </provider>
+26
+27        <activity
+27-->D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:17:9-18:51
+28            android:name="com.workstation.crop.CropActivity"
+28-->D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:17:19-67
+29            android:theme="@style/AppThemeNoBar" />
+29-->D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:18:13-49
+30    </application>
+31
+32</manifest>

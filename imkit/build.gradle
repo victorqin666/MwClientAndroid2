@@ -1,0 +1,98 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.mwim.qcloud.tim.uikit'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    sourceSets {
+        main {
+            assets.srcDirs = ['assets']
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+        maven { url "https://mirrors.tencent.com/repository/maven/tencent_public"}
+    }
+
+}
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.annotation:annotation:1.1.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'it.sephiroth.android.library.imagezoom:library:1.0.4'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    implementation 'com.github.promeg:tinypinyin:1.0.0' // ~80KB
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-java:0.8.8'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.8'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-arm64:0.8.8'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-x86:0.8.8'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-x86_64:0.8.8'
+
+    implementation 'com.wang.avi:library:2.1.3'
+    implementation 'com.google.android:flexbox:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.tencent.liteav:LiteAVSDK_TRTC:8.2.9809'
+    //im
+    implementation 'com.tencent.imsdk:imsdk:5.1.10'
+
+    //底部菜单选项
+    implementation 'com.ashokvarma.android:bottom-navigation-bar:2.2.0'
+    //按钮
+    api 'com.github.dmytrodanylyk.android-process-button:library:1.0.4'
+    //x5 内核
+    implementation 'com.tencent.tbs.tbssdk:sdk:43939'
+    //umeng统计
+    implementation "com.umeng.umsdk:common:9.3.0"
+    implementation "com.umeng.umsdk:asms:1.1.3" // asms包依赖(必选)
+    implementation "com.umeng.umsdk:crash:0.0.5" // native crash包依赖(必选)
+    //地图相关
+    api 'com.amap.api:3dmap:6.9.2'
+    api 'com.amap.api:location:4.7.2'
+    api 'com.amap.api:search:7.3.0'
+    //各大平台推送
+    // 小米
+    implementation "com.tencent.tpns:xiaomi:1.2.1.2-release"
+    // 魅族
+//    implementation "com.tencent.tpns:meizu:1.2.1.2-release"
+    // OPPO
+    implementation "com.tencent.tpns:oppo:1.2.1.2-release"
+    // vivo
+    implementation "com.tencent.tpns:vivo:1.2.1.2-release"
+    // 华为
+    implementation 'com.tencent.tpns:huawei:1.2.1.2-release'
+    implementation 'com.huawei.hms:push:5.0.2.300'
+    // 扫一扫模块
+    implementation "com.google.zxing:core:3.3.2"
+
+    api project(path: ':base')
+    implementation project(path: ':update_app')
+
+
+}
+

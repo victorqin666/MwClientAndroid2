@@ -1,0 +1,9 @@
+<resources>
+    <string name="download_error_url">错误的下载地址</string>
+    <string name="download_finish_ticker_text">下载已完成，请到系统通知栏查看和安装</string>
+    <string name="download_finish_title">下载已完成，点击安装</string>
+    <string name="download_ready">开始下载…</string>
+    <string name="download_loading_start">正在连接，请稍候</string>
+    <string name="download_loading_progress">下载进度%1$d%%，点击取消下载</string>
+    <string name="download_fail">下载失败，请通过其他平台更新</string>
+</resources>

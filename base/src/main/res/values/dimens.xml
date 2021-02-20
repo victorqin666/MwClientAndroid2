@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cropiwa_default_border_stroke_width">1dp</dimen>
+    <dimen name="cropiwa_default_corner_stroke_width">4dp</dimen>
+    <dimen name="cropiwa_default_grid_stroke_width">1dp</dimen>
+    <dimen name="cropiwa_default_min_height">40dp</dimen>
+    <dimen name="cropiwa_default_min_width">40dp</dimen>
+
+    <!--顶部title的高度-->
+    <dimen name="actionbar_size">48dp</dimen>
+    <!--标题右边控件距离右边的距离-->
+    <dimen name="title_right_view_mr">15dp</dimen>
+</resources>

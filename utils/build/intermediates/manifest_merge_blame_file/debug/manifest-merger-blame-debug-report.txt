@@ -1,0 +1,21 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.work.util"
+4    android:versionCode="22"
+5    android:versionName="1.2.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\victor\yzIM\MwClientAndroid\utils\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\victor\yzIM\MwClientAndroid\utils\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\victor\yzIM\MwClientAndroid\utils\src\main\AndroidManifest.xml:3:5-6:19
+12        android:allowBackup="true"
+12-->D:\victor\yzIM\MwClientAndroid\utils\src\main\AndroidManifest.xml:4:9-35
+13        android:supportsRtl="true" >
+13-->D:\victor\yzIM\MwClientAndroid\utils\src\main\AndroidManifest.xml:5:9-35
+14    </application>
+15
+16</manifest>

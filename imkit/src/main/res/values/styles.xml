@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TUIKit_Theme_Transparent" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <!-- 自定义AlertDialog的样式 -->
+    <style name="TUIKit_AlertDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!--PopMenu的Style-->
+    <style name="PopMenuStyle" >
+        <item name="dropDownListViewStyle">@style/PopMenuDivider</item>
+        <item name="textAppearanceSmallPopupMenu">@style/PopMenuText</item>
+        <item name="textAppearanceLargePopupMenu">@style/PopMenuText</item>
+        <item name="android:itemBackground">@drawable/selector_pop_menu</item>
+    </style>
+    <style name="PopMenuText">
+        <item name="android:textColor">@color/color_333333</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="PopMenuDivider">
+        <item name="divider">@color/color_e6e6e6</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+<!--    输入框-->
+    <style name="EditorStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:paddingLeft">@dimen/dp_10</item>
+        <item name="android:paddingRight">@dimen/dp_10</item>
+        <item name="android:layout_marginLeft">@dimen/dp_20</item>
+        <item name="android:layout_marginRight">@dimen/dp_20</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:background">@drawable/shape_border_editor</item>
+    </style>
+
+    <!--搜索框样式-->
+    <style name="SearchEditorTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/search_editor_height</item>
+        <item name="android:background">@drawable/shape_bg_white_radius_8</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:paddingLeft">@dimen/dp_10</item>
+        <item name="android:paddingRight">@dimen/dp_10</item>
+        <item name="android:imeOptions">actionSearch</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@color/color_cccccc</item>
+        <item name="android:drawableLeft">@drawable/ic_search</item>
+    </style>
+    <!-- item高度样式   -->
+    <style name="CellStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+    <!-- 右上角popupwindow -->
+    <style name="AnimationMainTitleMore">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+</resources>

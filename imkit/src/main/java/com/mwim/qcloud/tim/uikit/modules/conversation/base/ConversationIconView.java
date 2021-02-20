@@ -1,0 +1,114 @@
+package com.mwim.qcloud.tim.uikit.modules.conversation.base;
+
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.PorterDuff;
+import android.graphics.drawable.BitmapDrawable;
+import android.util.AttributeSet;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+
+import androidx.annotation.ColorInt;
+import androidx.annotation.DrawableRes;
+import androidx.core.content.ContextCompat;
+
+import com.mwim.qcloud.tim.uikit.R;
+import com.mwim.qcloud.tim.uikit.component.gatherimage.SynthesizedImageView;
+import com.mwim.qcloud.tim.uikit.utils.ImageUtil;
+import com.mwim.qcloud.tim.uikit.utils.ScreenUtil;
+
+import java.util.List;
+
+/**
+ * 会话列表头像View
+ */
+public class ConversationIconView extends RelativeLayout {
+
+    private static final int icon_size = ScreenUtil.getPxByDp(50);
+    private ImageView mIconView;
+
+
+    public ConversationIconView(Context context) {
+        super(context);
+        init();
+    }
+
+    public ConversationIconView(Context context, AttributeSet attrs) {
+        super(context, attrs);
+        init();
+    }
+
+    public ConversationIconView(Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
+        init();
+    }
+
+
+    public void invokeInformation(ConversationInfo conversationInfo, DynamicConversationIconView infoView) {
+        infoView.setLayout(this);
+        infoView.setMainViewId(R.id.profile_icon_group);
+        infoView.parseInformation(conversationInfo);
+    }
+
+    private void init() {
+        inflate(getContext(), R.layout.profile_icon_view, this);
+        mIconView = findViewById(R.id.profile_icon);
+        ((SynthesizedImageView) mIconView).defaultImage(0);
+    }
+
+    public void setProfileImageView(ImageView iconView) {
+        mIconView = iconView;
+        LayoutParams params = new LayoutParams(icon_size, icon_size);
+        params.addRule(RelativeLayout.CENTER_IN_PARENT);
+        addView(mIconView, params);
+
+    }
+
+    /**
+     * 设置会话头像的url
+     *
+     * @param iconUrls 头像url,最多只取前9个
+     */
+    public void setIconUrls(List<Object> iconUrls) {
+        if (mIconView instanceof SynthesizedImageView) {
+            ((SynthesizedImageView) (mIconView)).displayImage(iconUrls).load();
+        }
+    }
+
+    public void setConversation(ConversationInfo c) {
+        if (mIconView instanceof SynthesizedImageView) {
+            ((SynthesizedImageView) (mIconView)).setImageId(c.getConversationId());
+            setIconUrls(c.getIconUrlList());
+        }
+    }
+
+    public void setRadius(int radius) {
+        if (mIconView instanceof SynthesizedImageView) {
+            ((SynthesizedImageView) (mIconView)).setRadius(radius);
+        }
+    }
+
+    public void setDefaultImageResId(int resId) {
+        BitmapDrawable bd = (BitmapDrawable) ContextCompat.getDrawable(getContext(),resId);
+        if(bd!=null){
+            mIconView.setImageBitmap(bd.getBitmap());
+        }
+    }
+
+    public void setDefaultImageResId(@DrawableRes int resId, @ColorInt int color) {
+        BitmapDrawable bd = (BitmapDrawable) ContextCompat.getDrawable(getContext(),resId);
+        if(bd!=null){
+            bd.setColorFilter(color, PorterDuff.Mode.SRC_ATOP);
+            mIconView.setImageDrawable(bd);
+        }
+    }
+
+    public void setBitmapResId(int resId) {
+        BitmapDrawable bd = (BitmapDrawable) ContextCompat.getDrawable(getContext(),resId);
+        if(bd!=null){
+            Bitmap bitmap = ImageUtil.toRoundBitmap(bd.getBitmap());
+            mIconView.setImageBitmap(bitmap);
+        }
+    }
+}
+

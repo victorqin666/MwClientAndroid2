@@ -1,0 +1,152 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        applicationId "com.work.mw"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+
+        flavorDimensions "yzim"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+
+        ndk {
+            abiFilters = []
+            abiFilters.addAll(rootProject.ext.abiFilters)
+        }
+
+        buildConfigField "String", "HOST_NAME", "\"" + rootProject.ext.releaseHostName + "\""
+
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("yz.jks")
+            storePassword "20200914"
+            keyAlias "yz"
+            keyPassword "20200914"
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.release
+        }
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            zipAlignEnabled true
+        }
+    }
+    repositories {
+        flatDir {
+            dirs 'libs'   // aar目录
+        }
+    }
+    //多渠道控制
+    productFlavors {
+        //官方
+        Yz {
+            manifestPlaceholders = [
+                    CHANNEL_VALUE: "yz",
+            ]
+        }
+        ALi {
+            manifestPlaceholders = [
+                    CHANNEL_VALUE: "ali",
+            ]
+        }
+        Baidu {
+            manifestPlaceholders = [
+                    CHANNEL_VALUE: "baidu",
+            ]
+        }
+        QQ {
+            manifestPlaceholders = [
+                    CHANNEL_VALUE: "qq",
+            ]
+        }
+        VIVO {
+            manifestPlaceholders = [
+                    CHANNEL_VALUE: "vivo",
+            ]
+        }
+        OPPO {
+            manifestPlaceholders = [
+                    CHANNEL_VALUE: "oppo",
+            ]
+        }
+        XiaoMi {
+            manifestPlaceholders = [
+                    CHANNEL_VALUE: "xiaomi",
+            ]
+        }
+        HuaWei {
+            manifestPlaceholders = [
+                    CHANNEL_VALUE: "huawei",
+            ]
+        }
+    }
+    //打包
+    def apkArray = []
+    android.applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def outputFile = output.outputFile
+            def fileName = "${variant.productFlavors[0].name}_${versionName}_${versionCode}.apk";
+            outputFileName = fileName;
+            apkArray.add(outputFile.parentFile.absolutePath + "/" + fileName);
+        }
+    }
+
+    afterEvaluate {
+        if (project.hasProperty("assembleRelease")) {
+            assembleRelease.doLast {
+                //遍历文件数组并进行操作
+                copyChannelApk(apkArray)
+            }
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+            assets.srcDirs = ['src/main/assets', 'src/main/assets/']
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+}
+
+repositories {
+    maven {
+        url 'https://storage.googleapis.com/download.flutter.io'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+//    implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    //im
+    implementation project(path: ':imkit')
+    // bugly sdk
+//    implementation 'com.tencent.bugly:crashreport:3.2.422'
+//    implementation 'com.tencent.bugly:nativecrashreport:3.7.471'
+    //腾讯会议
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+    implementation "com.tencent.wemeet:sdk-interface:0.0.44"
+
+    testImplementation 'junit:junit:4.13.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+}

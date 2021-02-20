@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name" translatable="false">元讯</string>
+    <string name="activity_forgetpassword" translatable="false">忘记密码</string>
+    <string name="activity_register" translatable="false">注册</string>
+
+    <string name="text_login_ing" translatable="false">登录中...</string>
+    <string name="text_please_wait" translatable="false">请稍等...</string>
+    <string name="text_manager_login" translatable="false">登录</string>
+    <string name="text_forget_password" translatable="false">忘记密码？</string>
+    <string name="text_version" translatable="false">版本号 %1$s</string>
+    <string name="text_register" translatable="false">还没有账号？去注册</string>
+    <string name="text_agree" translatable="false">同意</string>
+
+    <string name="hint_account" translatable="false">请输入手机号</string>
+    <string name="hint_password_login" translatable="false">请输入您的密码</string>
+
+    <string name="toast_permission_error" translatable="false">部分权限未允许，可能影响正常使用</string>
+    <string name="toast_password_error" translatable="false">两次密码不一致</string>
+    <string name="toast_agree_conceal" translatable="false">请先同意<font color='#2da0f0'>《服务协议》</font>和《隐私政策》</string>
+    <string name="toast_reset_success" translatable="false">密码重置成功</string>
+</resources>

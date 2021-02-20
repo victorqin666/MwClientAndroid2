@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">base</string>
+    <string name="label_know">知道了</string>
+    <string name="label_ok">确认</string>
+    <string name="label_cancel">取消</string>
+    <string name="label_quit">退出</string>
+    <string name="label_setting">设置</string>
+    <string name="label_help">帮助</string>
+
+    <string name="tips_service_error">网络请求超时,请重试。</string>
+    <string name="tips_network">请打开您的网络。</string>
+    <string name="tips_permissions">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="permission_camera">缺少相机相关的必要权限，\n\n请点击设置-权限-打开所需权限。</string>
+    <string name="permission_photo">缺少文件读取相关的必要权限，\n\n请点击设置-权限-打开所需权限。</string>
+
+    <string name="crop_image_activity_title"></string>
+    <string name="crop_image_menu_rotate_left">反时针旋转</string>
+    <string name="crop_image_menu_rotate_right">旋转</string>
+    <string name="crop_image_menu_crop">裁剪</string>
+    <string name="pick_image_intent_chooser_title">选择图片</string>
+    <string name="saving_image">保存中&#8230;</string>
+    <string name="saving_image_error">保存失败&#8230;</string>
+    <string name="default_loading">加载中~~~</string>
+
+</resources>

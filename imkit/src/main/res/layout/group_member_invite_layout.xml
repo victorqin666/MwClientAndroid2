@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <com.mwim.qcloud.tim.uikit.component.TitleBarLayout
+        android:id="@+id/group_invite_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/page_title_height" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/search"
+        android:layout_margin="@dimen/dp_10"
+        android:textSize="@dimen/sp_14"
+        android:padding="5dp"
+        android:focusable="true"
+        android:lines="1"
+        android:focusableInTouchMode="true"
+        android:drawableStart="@drawable/ic_search"
+        android:drawablePadding="@dimen/dp_5"
+        android:background="@drawable/search_bg"
+        android:hint="@string/conversation_search_friends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.mwim.qcloud.tim.uikit.modules.contact.ContactListView
+        android:id="@+id/group_invite_member_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

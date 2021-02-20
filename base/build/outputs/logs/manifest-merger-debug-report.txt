@@ -1,0 +1,71 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:1:1-20:12
+INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:1:1-20:12
+INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:1:1-20:12
+INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:1:1-20:12
+INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:1:1-20:12
+INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:1:1-20:12
+INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:1:1-20:12
+	package
+		ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:2:5-38
+		INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml
+		INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml
+		ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:1:1-20:12
+		INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml
+		ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:1:1-20:12
+		INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:4:22-76
+application
+ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:5:5-19:19
+	android:supportsRtl
+		ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:7:9-35
+	android:label
+		ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:6:9-41
+	android:allowBackup
+		ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:5:18-44
+provider#androidx.core.content.FileProvider
+ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:10:13-64
+	android:exported
+		ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:9:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:13:13-15:57
+	android:resource
+		ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:15:17-55
+	android:name
+		ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:14:17-67
+activity#com.workstation.crop.CropActivity
+ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:17:9-18:51
+	android:theme
+		ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:18:13-49
+	android:name
+		ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml:17:19-67
+uses-sdk
+INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml
+INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml
+INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml
+INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml
+		ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml
+		INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml
+		ADDED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml
+		INJECTED from D:\victor\yzIM\MwClientAndroid\base\src\main\AndroidManifest.xml

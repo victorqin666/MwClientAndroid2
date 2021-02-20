@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+dimen def_height
+dimen dp_10
+dimen dp_15
+dimen dp_2
+dimen dp_20
+dimen dp_24
+dimen dp_30
+dimen dp_4
+dimen dp_40
+dimen dp_5
+dimen dp_72
+dimen dp_8
+dimen sp_10
+dimen sp_12
+dimen sp_13
+dimen sp_14
+dimen sp_16
+drawable sample_footer_loading
+drawable sample_footer_loading_progress
+id BaseQuickAdapter_databinding_support
+id BaseQuickAdapter_dragging_support
+id BaseQuickAdapter_swiping_support
+id BaseQuickAdapter_viewholder_support
+id load_more_load_end_view
+id load_more_load_fail_view
+id load_more_loading_view
+id loading_progress
+id loading_text
+id tv_prompt
+layout quick_view_load_more
+string app_name
+string default_loading
+string load_end
+string load_failed

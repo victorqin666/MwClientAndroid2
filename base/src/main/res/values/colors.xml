@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--标题栏颜色-->
+    <color name="defaultColorPrimary">@color/white</color>
+    <!-- 状态栏颜色-->
+    <color name="defaultColorPrimaryDark">@color/white</color>
+    <!--其他颜色 checkbox 光标等-->
+    <color name="defaultColorAccent">@color/color_3a89f0</color>
+    <!--标题栏字体颜色-->
+    <color name="colorTitle">#000</color>
+
+    <!--裁剪相关的颜色-->
+    <color name="cropiwa_default_overlay_color">#af000000</color>
+    <color name="cropiwa_default_border_color">#f5f5f5</color>
+    <color name="cropiwa_default_corner_color">#f5f5f5</color>
+    <color name="cropiwa_default_grid_color">#fff</color>
+
+    <color name="aspectRatioNotSelected">#757575</color>
+    <color name="aspectRatioText">#757575</color>
+    <color name="disabledOverlay">#3cffffff</color>
+</resources>

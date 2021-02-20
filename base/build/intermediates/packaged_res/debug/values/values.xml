@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aspectRatioNotSelected">#757575</color>
+    <color name="aspectRatioText">#757575</color>
+    <color name="colorTitle">#000</color>
+    <color name="cropiwa_default_border_color">#f5f5f5</color>
+    <color name="cropiwa_default_corner_color">#f5f5f5</color>
+    <color name="cropiwa_default_grid_color">#fff</color>
+    <color name="cropiwa_default_overlay_color">#af000000</color>
+    <color name="defaultColorAccent">@color/color_3a89f0</color>
+    <color name="defaultColorPrimary">@color/white</color>
+    <color name="defaultColorPrimaryDark">@color/white</color>
+    <color name="disabledOverlay">#3cffffff</color>
+    <dimen name="actionbar_size">48dp</dimen>
+    <dimen name="cropiwa_default_border_stroke_width">1dp</dimen>
+    <dimen name="cropiwa_default_corner_stroke_width">4dp</dimen>
+    <dimen name="cropiwa_default_grid_stroke_width">1dp</dimen>
+    <dimen name="cropiwa_default_min_height">40dp</dimen>
+    <dimen name="cropiwa_default_min_width">40dp</dimen>
+    <dimen name="title_right_view_mr">15dp</dimen>
+    <item name="crop_image_menu_crop" type="drawable"/>
+    <item name="frame_layout_id" type="id"/>
+    <string name="app_name">base</string>
+    <string name="crop_image_activity_title"/>
+    <string name="crop_image_menu_crop">裁剪</string>
+    <string name="crop_image_menu_rotate_left">反时针旋转</string>
+    <string name="crop_image_menu_rotate_right">旋转</string>
+    <string name="default_loading">加载中~~~</string>
+    <string name="label_cancel">取消</string>
+    <string name="label_help">帮助</string>
+    <string name="label_know">知道了</string>
+    <string name="label_ok">确认</string>
+    <string name="label_quit">退出</string>
+    <string name="label_setting">设置</string>
+    <string name="permission_camera">缺少相机相关的必要权限，\n\n请点击设置-权限-打开所需权限。</string>
+    <string name="permission_photo">缺少文件读取相关的必要权限，\n\n请点击设置-权限-打开所需权限。</string>
+    <string name="pick_image_intent_chooser_title">选择图片</string>
+    <string name="saving_image">保存中…</string>
+    <string name="saving_image_error">保存失败…</string>
+    <string name="tips_network">请打开您的网络。</string>
+    <string name="tips_permissions">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="tips_service_error">网络请求超时,请重试。</string>
+    <style name="AppActionBar" parent="Base.Widget.AppCompat.ActionBar">
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+        <item name="background">@color/defaultColorPrimary</item>
+        <item name="elevation">10dp</item>
+    </style>
+    <style name="AppDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/defaultColorAccent</item>
+        <item name="colorControlActivated">@color/defaultColorAccent</item>
+        <item name="colorControlNormal">@color/color_cccccc</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/AppActionBar</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+    <style name="AppThemeNoBar" parent="@style/BaseAppTheme">
+
+    </style>
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- toolbar颜色 -->
+        <item name="colorPrimary">@color/defaultColorPrimary</item>
+        <!-- 状态栏颜色-->
+        <item name="colorPrimaryDark">@color/defaultColorPrimaryDark</item>
+        <!-- 其他颜色 checkbox 等-->
+        <item name="colorAccent">@color/defaultColorAccent</item>
+        <item name="colorControlActivated">@color/defaultColorAccent</item>
+        <item name="colorControlNormal">@color/color_333333</item>
+        <!-- title高度-->
+        <item name="actionBarSize">@dimen/actionbar_size</item>
+        <item name="actionBarItemBackground">@null</item>
+    </style>
+    <style name="Theme.AppCompat.Slider" parent="@style/AppThemeNoBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="Theme.AppCompat.Welcome" parent="@style/AppThemeNoBar">
+        <item name="android:windowBackground">@drawable/app_splash</item>
+        <item name="android:windowDisablePreview">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="ToolBarTheme" parent="AppActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/actionbar_size</item>
+        <item name="contentInsetEnd">0dp</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetRight">0dp</item>
+        <item name="contentInsetLeft">0dp</item>
+    </style>
+    <declare-styleable name="CropIwaView">
+
+        <attr format="boolean" name="ci_scale_enabled"/>
+        <attr format="boolean" name="ci_translation_enabled"/>
+        <attr format="float" name="ci_max_scale"/>
+        <attr format="float" name="ci_crop_scale"/>
+        <attr format="enum" name="ci_initial_position">
+            <enum name="centerInside" value="0"/>
+            <enum name="centerCrop" value="1"/>
+        </attr>
+
+        <attr format="color" name="ci_border_color"/>
+        <attr format="dimension" name="ci_border_width"/>
+
+        <attr format="color" name="ci_corner_color"/>
+        <attr format="dimension" name="ci_corner_width"/>
+
+        <attr format="dimension" name="ci_grid_width"/>
+        <attr format="color" name="ci_grid_color"/>
+        <attr format="boolean" name="ci_draw_grid"/>
+
+        <attr format="dimension" name="ci_min_crop_width"/>
+        <attr format="dimension" name="ci_min_crop_height"/>
+
+        <attr format="color" name="ci_overlay_color"/>
+
+        <attr format="boolean" name="ci_dynamic_aspect_ratio"/>
+        <attr format="integer" name="ci_aspect_ratio_w"/>
+        <attr format="integer" name="ci_aspect_ratio_h"/>
+
+        <attr format="enum" name="ci_crop_shape">
+            <enum name="rectangle" value="0"/>
+            <enum name="oval" value="1"/>
+        </attr>
+
+    </declare-styleable>
+    <declare-styleable name="LoadingView">
+        <attr format="color" name="triangleColor"/>
+        <attr format="color" name="circleColor"/>
+        <attr format="integer" name="duration"/>
+        <attr format="dimension" name="circleWidth"/>
+    </declare-styleable>
+    <declare-styleable name="MaterialMenuView">
+        <attr format="color" name="mm_color"/>
+        <attr format="boolean" name="mm_visible"/>
+        <attr format="integer" name="mm_scale"/>
+        <attr format="integer" name="mm_transformDuration"/>
+        <attr format="integer" name="mm_strokeWidth"/>
+        <attr format="boolean" name="mm_rtlEnabled"/>
+    </declare-styleable>
+</resources>

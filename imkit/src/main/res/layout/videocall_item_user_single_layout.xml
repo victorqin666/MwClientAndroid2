@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:parentTag="android.widget.RelativeLayout">
+
+    <com.tencent.rtmp.ui.TXCloudVideoView
+        android:id="@+id/trtc_tc_cloud_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/fl_no_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#444444"
+        android:visibility="visible">
+        <com.mwim.liteav.trtcvideocall.ui.videolayout.SquareImageView
+            android:id="@+id/img_avatar"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="115dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/default_head" />
+        <View
+            android:id="@+id/fl_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#70000000"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/waiting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="呼叫中"
+            android:alpha="0.5"
+            android:textSize="@dimen/sp_12"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_below="@+id/img_avatar"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFFFF"/>
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:alpha="0.5"
+            android:ellipsize="end"
+            android:text="@string/app_name"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/img_avatar"
+            android:layout_margin="@dimen/dp_10"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"/>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/pb_audio"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:max="100"
+        android:visibility="gone"
+        android:minHeight="3dp"
+        android:progress="0" />
+
+</merge>
+
+

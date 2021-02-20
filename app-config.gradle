@@ -1,0 +1,31 @@
+ext{}
+void loadAppProperties(){
+    println "读取APP配置信息"
+    File propertiesFile = new File(rootDir,"gradle.properties")
+    if(propertiesFile.exists() && propertiesFile.canRead()){
+        Properties properties = new Properties()
+        DataInputStream dataInputStream =propertiesFile.newDataInputStream()
+        properties.load(dataInputStream)
+        dataInputStream.close()
+
+        rootProject.ext.compileSdkVersion = properties.getProperty("compileSdkVersion").toInteger()
+
+        rootProject.ext.minSdkVersion = properties.getProperty("minSdkVersion").toInteger()
+        rootProject.ext.targetSdkVersion = properties.getProperty("targetSdkVersion").toInteger()
+
+        rootProject.ext.versionCode = properties.getProperty("versionCode").toInteger()
+        rootProject.ext.versionName = properties.getProperty("versionName")
+
+        rootProject.ext.superLibVersion = properties.getProperty("superLibVersion")
+
+        rootProject.ext.releaseHostName = properties.getProperty("releaseHostName")
+        rootProject.ext.debugHostName = properties.getProperty("debugHostName")
+
+        rootProject.ext.abiFilters = ['armeabi-v7a'] //['armeabi', 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64']
+        rootProject.ext.arguments = "-DANDROID_STL=c++_static"
+        rootProject.ext.cppFlags = "-std=c++11"
+        println "当前的版本："+rootProject.ext.versionCode+">>"+rootProject.ext.versionName
+    }
+}
+
+loadAppProperties()

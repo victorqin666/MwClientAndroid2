@@ -1,0 +1,20 @@
+com/http/network/listener/OnResultDataListener.java
+ com.http.network.listener.OnResultDataListener
+com/http/network/BuildConfig.java
+ com.http.network.BuildConfig
+com/http/network/HttpConnectWork.java
+ com.http.network.HttpConnectWork
+com/http/network/task/ObjectMapperFactory.java
+ com.http.network.task.ObjectMapperFactory
+com/http/network/model/ClientModel.java
+ com.http.network.model.ClientModel
+com/http/network/HttpType.java
+ com.http.network.HttpType
+com/http/network/model/ResponseWork.java
+ com.http.network.model.ResponseWork
+com/http/network/model/RequestWork.java
+ com.http.network.model.RequestWork
+com/http/network/RequestParams.java
+ com.http.network.RequestParams
+com/http/network/task/ConnectDataTask.java
+ com.http.network.task.ConnectDataTask

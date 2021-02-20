@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.mwim.qcloud.tim.uikit.component.LineControllerView
+        android:id="@+id/update_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:name="@string/user_setting_update_pwd"
+        app:canNav="true"/>
+
+    <com.mwim.qcloud.tim.uikit.component.LineControllerView
+        android:id="@+id/modify_version"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:name="@string/user_setting_version"
+        app:isTop="true"
+        app:canNav="true"/>
+    <com.mwim.qcloud.tim.uikit.component.LineControllerView
+        android:id="@+id/modify_cache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:name="@string/user_setting_cache"
+        app:canNav="true"/>
+
+    <com.mwim.qcloud.tim.uikit.component.LineControllerView
+        android:id="@+id/modify_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:isBottom="false"
+        app:name="@string/user_setting_about"
+        app:canNav="true"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_height="48dp"
+        android:text="@string/exit"
+        android:gravity="center"
+        android:background="@color/white"
+        android:textColor="@color/text_negative"/>
+</LinearLayout>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="we_come" translatable="false">欢迎使用元讯</string>
+    <string name="text_version" translatable="false">版本号 %1$s</string>
+
+    <string name="chat_top" translatable="false">置顶聊天</string>
+    <string name="chat_delete" translatable="false">删除聊天</string>
+    <string name="quit_chat_top" translatable="false">取消置顶</string>
+
+    // "+"menu相关
+    <string name="add_friend" translatable="false">添加好友</string>
+    <string name="add_group" translatable="false">添加群聊</string>
+    <string name="scan_qr_code" translatable="false">扫一扫</string>
+    <string name="start_conversation" translatable="false">发起会话</string>
+    <string name="create_group_chat" translatable="false">发起群聊</string>
+    <string name="create_chat_room" translatable="false">创建聊天室</string>
+    <string name="create_private_group" translatable="false">创建讨论组</string>
+    <string name="hint_add_user_id" translatable="false">请输入ID</string>
+    <string name="hint_add_wording" translatable="false">请输入验证消息</string>
+    <string name="contact_add" translatable="false">添加</string>
+    <string name="user_id" translatable="false">对方ID</string>
+    <string name="add_wording" translatable="false">验证消息</string>
+
+    // 主页Tab相关
+    <string name="tab_contact_tab_text" translatable="false">通讯录</string>
+    <string name="tab_conversation_tab_text" translatable="false">消息</string>
+    <string name="tab_work_tab_text" translatable="false">工作台</string>
+    <string name="tab_profile_tab_text" translatable="false">我</string>
+
+    // "我"相关
+    <string name="profile" translatable="false">我</string>
+    <string name="id" translatable="false">账号：%1$s</string>
+    <string name="modify_user_icon" translatable="false">修改头像</string>
+    <string name="im_user_icon" translatable="false">头像</string>
+    <string name="modify_nick_name" translatable="false">修改昵称</string>
+    <string name="im_nick_name" translatable="false">昵称</string>
+    <string name="im_sex" translatable="false">性别</string>
+    <string name="im_city" translatable="false">地区</string>
+    <string name="im_signature" translatable="false">个性签名</string>
+    <string name="im_phone" translatable="false">手机号</string>
+    <string name="im_department" translatable="false">部门</string>
+    <string name="modify_department" translatable="false">修改部门</string>
+    <string name="im_position" translatable="false">职位</string>
+    <string name="modify_im_position" translatable="false">修改职位</string>
+    <string name="im_card" translatable="false">工号</string>
+    <string name="modify_im_card" translatable="false">修改工号</string>
+    <string name="im_email" translatable="false">邮箱</string>
+    <string name="modify_im_email" translatable="false">修改邮箱</string>
+    <string name="modify_signature" translatable="false">修改个性签名</string>
+    <string name="modify_setting" translatable="false">设置</string>
+    <string name="add_rule" translatable="false">加我为好友时</string>
+    <string name="allow_type_allow_any" translatable="false">允许任何人</string>
+    <string name="allow_type_deny_any" translatable="false">拒绝任何人</string>
+    <string name="allow_type_need_confirm" translatable="false">需要验证</string>
+    <string name="exit" translatable="false">退出登录</string>
+    <string name="user_info_title" translatable="false">个人信息</string>
+    <string name="user_content_default" translatable="false">待完善</string>
+    <string name="user_setting_about" translatable="false">关于我们</string>
+    <string name="user_setting_version" translatable="false">检查更新</string>
+    <string name="user_setting_cache" translatable="false">清除缓存</string>
+    <string name="user_setting_update_pwd" translatable="false">修改密码</string>
+    <string name="user_save" translatable="false">保存</string>
+    <string name="user_hint_old_pwd" translatable="false">请输入原密码</string>
+    <string name="user_hint_new_pwd" translatable="false">请输入新密码</string>
+    <string name="user_hint_new_confirm_pwd" translatable="false">请确认新密码</string>
+    <string name="user_text_please_wait" translatable="false">请稍等</string>
+    <string name="label_select_avatar" translatable="false">选择头像</string>
+    <string name="user_select_camera" translatable="false">拍照</string>
+    <string name="user_select_phone" translatable="false">相册</string>
+    <string name="user_update_phone" translatable="false">请输入新的手机号</string>
+    <string name="hint_sms_code" translatable="false">请输入验证码</string>
+    <string name="text_sending" translatable="false">正在发送</string>
+    <string name="text_sms_timer" translatable="false">剩余%1$d秒</string>
+    <string name="text_retry_sms" translatable="false">重新发送</string>
+    <string name="text_send_success" translatable="false">发送成功</string>
+    <string name="text_send_fail" translatable="false">发送失败</string>
+    <string name="text_get_sms_code" translatable="false">获取验证码</string>
+    <string name="text_compile" translatable="false">完成</string>
+    <string name="text_change_phone" translatable="false">修改手机号</string>
+    <string name="text_user_remark" translatable="false">元知智能研究院</string>
+    <string name="text_change_audio" translatable="false">切换语音</string>
+    <string name="text_hangup_name" translatable="false">挂断</string>
+    <string name="text_dialing_name" translatable="false">接听</string>
+    <string name="text_change_camera" translatable="false">切换摄像头</string>
+    <string name="text_video_close" translatable="false">摄像头</string>
+    <string name="text_mute_open" translatable="false">开启静音</string>
+    <string name="text_mute_close" translatable="false">关闭静音</string>
+    <string name="text_handsfree_1" translatable="false">免提</string>
+    <string name="text_handsfree_2" translatable="false">听筒</string>
+    <string name="text_login_remark" translatable="false">在元讯与你的同事和朋友进行沟通与协作</string>
+    <string name="text_china_phone" translatable="false">+86</string>
+    <string name="text_video_tag" translatable="false">正在等待对方接受邀请...</string>
+    <string name="text_video_tag_show" translatable="false">邀请您进行视频通话...</string>
+    <string name="text_qr_code" translatable="false">我的二维码</string>
+    <string name="text_qr_code_remark" translatable="false">扫一扫二维码，加我为好友</string>
+    <string name="text_new_contacts_phone" translatable="false">添加手机联系人</string>
+    <string name="text_new_contacts_approval_title" translatable="false">好友申请和添加</string>
+    <string name="text_contacts_phone_nickname" translatable="false">昵称：%1$s</string>
+    <string name="text_contacts_phone_friends" translatable="false">已是好友</string>
+    <string name="text_contacts_phone_wait" translatable="false">等待通过</string>
+    <string name="text_contacts_phone_download" translatable="false">邀请下载</string>
+    <string name="text_contacts_phone_download_sending" translatable="false">正在发送</string>
+    <string name="text_contacts_phone_download_ok" translatable="false">邀请成功</string>
+    <string name="text_contacts_add_wording" translatable="false">我是 %1$s</string>
+    <string name="text_contacts_add_download_success" translatable="false">邀请成功，已发送链接给您的好友...</string>
+    <string name="text_agreement_" translatable="false">用户协议</string>
+    <string name="text_progress_wait" translatable="false">正在匹配数据...</string>
+    <string name="text_conceal_" translatable="false">隐私政策</string>
+    <string name="hint_user_info_input" translatable="false">未填写</string>
+    <string name="hint_user_info_select" translatable="false">未选择</string>
+    <string name="hint_user_info_setting" translatable="false">未设置</string>
+    <string name="user_gender_0" translatable="false">保密</string>
+    <string name="user_gender_1" translatable="false">男</string>
+    <string name="user_gender_2" translatable="false">女</string>
+    <string name="user_city_select" translatable="false">选择地区</string>
+
+    // 群信息相关
+    <string name="tips_empty_group_member" translatable="false">请选择群成员</string>
+    <string name="tips_empty_group_type" translatable="false">请选择加群方式</string>
+    <string name="no_friend_apply" translatable="false">暂无好友申请</string>
+    <string name="group_remind" translatable="false">选择提醒的人</string>
+
+    // 新朋友
+    <string name="request_agree" translatable="false">同意</string>
+    <string name="request_accepted" translatable="false">已添加</string>
+    <string name="request_waiting" translatable="false">等待验证</string>
+    <string name="request_hint_user" translatable="false">请输入对方的手机号</string>
+    <string name="user_add_friends" translatable="false">添加到通讯录</string>
+
+    <string name="test_custom_action" translatable="false">自定义消息</string>
+    <string name="test_custom_message" translatable="false">查看详情>></string>
+
+
+    <string name="pic" translatable="false">图片</string>
+    <string name="photo" translatable="false">拍照</string>
+    <string name="video" translatable="false">摄像</string>
+    <string name="file" translatable="false">文件</string>
+
+    <string name="cancel" translatable="false">取消</string>
+    <string name="sure" translatable="false">确定</string>
+
+    <string name="un_download" translatable="false">未下载</string>
+    <string name="downloaded" translatable="false">已下载</string>
+    <string name="downloading" translatable="false">下载中…</string>
+    <string name="sending" translatable="false">发送中…</string>
+    <string name="sended" translatable="false">已发送</string>
+    <string name="has_read" translatable="false">已读</string>
+    <string name="unread" translatable="false">未读</string>
+    <string name="typing" translatable="false">正在输入…</string>
+
+    <string name="chat_to_top" translatable="false">置顶聊天</string>
+    <string name="chat_muted" translatable="false">全员禁言</string>
+    <string name="chat_rev_opt" translatable="false">消息免打扰</string>
+    <string name="send" translatable="false">发送</string>
+
+    <string name="group_id" translatable="false">群ID</string>
+    <string name="group_name" translatable="false">群聊名称</string>
+    <string name="group_icon" translatable="false">修改群头像</string>
+    <string name="group_notice" translatable="false">群公告</string>
+    <string name="group_members" translatable="false">群成员</string>
+    <string name="group_members_admin" translatable="false">管理员</string>
+    <string name="group_type" translatable="false">群类型</string>
+    <string name="add_group_member" translatable="false">添加成员</string>
+    <string name="remove_group_member" translatable="false">移除成员</string>
+    <string name="join_group_type" translatable="false">加群方式</string>
+    <string name="in_group_nick_name" translatable="false">我的群昵称</string>
+    <string name="dissolve" translatable="false">解散该群</string>
+    <string name="modify_group_name" translatable="false">修改群名称</string>
+    <string name="modify_group_notice" translatable="false">修改群公告</string>
+    <string name="modify_nick_name_in_goup" translatable="false">修改我的群昵称</string>
+    <string name="transfer_group_owner" translatable="false">转让群主</string>
+
+    <string name="group_detail" translatable="false">群聊详情</string>
+    <string name="accept" translatable="false">同意</string>
+    <string name="refuse" translatable="false">拒绝</string>
+    <string name="group_apply_members" translatable="false">群申请</string>
+    <string name="accepted" translatable="false">已同意</string>
+    <string name="refused" translatable="false">已拒绝</string>
+    <string name="group_apply_tips" translatable="false">%1$d 条入群申请</string>
+    <string name="group_apply_click_handle" translatable="false">点击处理</string>
+    <string name="group_remove_member" translatable="false">移出群聊</string>
+    <string name="group_join_type" translatable="false">加群方式</string>
+    <string name="modify_group_name_success" translatable="false">修改群名称成功</string>
+    <string name="modify_group_notice_success" translatable="false">修改群公告成功</string>
+    <string name="exit_group" translatable="false">退出群聊</string>
+    <string name="modify_nickname_success" translatable="false">修改昵称成功</string>
+    <string name="view_original_image" translatable="false">查看原图</string>
+
+    <!-- 联系人相关 -->
+    <string name="new_friend" translatable="false">新的好友</string>
+    <string name="group" translatable="false">我的群聊</string>
+    <string name="blacklist" translatable="false">黑名单</string>
+    <string name="contact_count" translatable="false">%d位联系人</string>
+    <string name="contact_title" translatable="false">通讯录</string>
+    <string name="conversation_title" translatable="false">消息列表</string>
+    <string name="conversation_wording_message" translatable="false">对方发来的验证码信息</string>
+    <string name="conversation_wording_send" translatable="false">发送给对方的验证信息</string>
+    <string name="conversation_search_msg" translatable="false">手机号/昵称</string>
+    <string name="conversation_search_friends" translatable="false">昵称/备注</string>
+    <string name="conversation_search_hf" translatable="false">昵称/备注/群昵称</string>
+    <string name="conversation_search_remind" translatable="false">请输入昵称</string>
+    <!--  应用中心  -->
+    <string name="work_title" translatable="false">应用中心</string>
+    <!-- 好友资料 -->
+    <string name="profile_detail" translatable="false">详细资料</string>
+    <string name="profile_id" translatable="false">帐号</string>
+    <string name="profile_add_wording" translatable="false">验证消息</string>
+    <string name="profile_remark" translatable="false">设置备注</string>
+    <string name="profile_black" translatable="false">加入黑名单</string>
+    <string name="profile_remark_edit" translatable="false">修改备注</string>
+    <string name="profile_chat" translatable="false">发送消息</string>
+    <string name="profile_chat_video_audio" translatable="false">音视频通话</string>
+    <string name="profile_del" translatable="false">删除好友</string>
+
+    <string name="search_call_hint" translatable="false">输入群成员名称</string>
+    <string name="video_call" translatable="false">视频通话</string>
+    <string name="audio_call" translatable="false">语音通话</string>
+    <string name="self_location" translatable="false">位置</string>
+
+    <string name="label_confirm" translatable="false">确认</string>
+    <string name="dialog_logout" translatable="false">确认退出账号吗？</string>
+    <string name="label_back" translatable="false">返回</string>
+    <string name="text_discover_error" translatable="false">数据加载失败啦~~\n点击任意地方可刷新。</string>
+    <string name="text_loading" translatable="false">加载中···</string>
+
+    <string name="toast_user_message_empty" translatable="false">信息不能为空</string>
+    <string name="toast_pwd_error" translatable="false">两次密码不一致</string>
+    <string name="toast_pwd_success" translatable="false">修改成功</string>
+    <string name="toast_add_more_friends" translatable="false">不能添加自己为好友</string>
+    <string name="toast_update_pwd_success" translatable="false">修改成功</string>
+    <string name="toast_save_success" translatable="false">保存成功</string>
+    <string name="toast_save_fail" translatable="false">保存失败，请稍后尝试！</string>
+    <string name="toast_conversation_permission" translatable="false">未开通聊天功能</string>
+    <string name="toast_sys_contacts_error" translatable="false">未找到通讯录联系人</string>
+
+    <string name="label_update_app_title" translatable="false">版本更新</string>
+    <string name="label_update_app_next" translatable="false">稍后提醒</string>
+    <string name="label_update_app" translatable="false">马上体验</string>
+    <string name="toast_app_version_up" translatable="false">已经是最新版本了！</string>
+
+    <string name="text_agreement" translatable="false">https://yinsi.yzmetax.com/agreement.html</string>
+    <string name="text_conceal" translatable="false">https://yinsi.yzmetax.com/conceal.html</string>
+    <string name="save_photo_video" translatable="false">保存到相册</string>
+
+    <string name="hint_password" translatable="false">密码6～16位，需大小写字母+数字组合</string>
+    <string name="hint_password_new" translatable="false">请再次确认您的密码</string>
+    <string name="hint_stop_search" translatable="false">请输入位置信息</string>
+
+    <string name="text_gps_permission_error" translatable="false">定位权限被禁用,请授予应用定位权限</string>
+    <string name="toast_fence_add_location_error" translatable="false">获取坐标错误，请重新选址。</string>
+    <string name="label_go_setting" translatable="false">去设置</string>
+
+    <string name="at_all" translatable="false">所有人</string>
+    <string name="ui_at_all" translatable="false">[@所有人]</string>
+    <string name="ui_at_me" translatable="false">[有人@我]</string>
+    <string name="ui_at_all_me" translatable="false">[@所有人][有人@我]</string>
+
+    <string name="date_yesterday" translatable="false">昨天</string>
+    <string name="date_tommorow" translatable="false">明天</string>
+    <string name="date_year" translatable="false">年</string>
+    <string name="date_month" translatable="false">月</string>
+    <string name="date_day" translatable="false">天</string>
+    <string name="date_hour" translatable="false">时</string>
+    <string name="date_minute" translatable="false">分</string>
+    <string name="date_second" translatable="false">秒</string>
+
+    <string name="date_year_short" translatable="false">年</string>
+    <string name="date_month_short" translatable="false">月</string>
+    <string name="date_day_short" translatable="false">天</string>
+    <string name="date_hour_short" translatable="false">时</string>
+    <string name="date_minute_short" translatable="false">分</string>
+    <string name="date_second_short" translatable="false">秒</string>
+
+    <string name="zxing_msg_camera_framework_bug" translatable="false">对不起，Android摄像头遇到问题，您需要重启设备</string>
+    <string name="zxing_distinguish_picture" translatable="false">识别图中二维码</string>
+    <string name="zxing_qr_can_not_recognized" translatable="false">该二维码无法识别</string>
+    <string name="zxing_open_light" translatable="false">打开</string>
+    <string name="zxing_close_light" translatable="false">关闭</string>
+    <string name="zxing_tips_qrcode_scan" translatable="false">将二维码放入框内，即可自动扫描</string>
+    <string name="zxing_scan_from_picture" translatable="false">选择图片</string>
+    <string name="common_network_unavailable" translatable="false">当前网络不可用</string>
+    <string name="common_network_check" translatable="false">请检查网络设置</string>
+</resources>
